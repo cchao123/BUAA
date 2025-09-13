@@ -9,7 +9,7 @@ import FAQ from '@/components/layout/FAQ';
 export default function Home() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Main customStyle={{ marginTop: '0' }}>
         <FAQ></FAQ>
       </Main>

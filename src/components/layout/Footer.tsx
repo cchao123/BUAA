@@ -8,7 +8,6 @@ export default function Friend() {
     <footer className="site-footer" role="contentinfo">
       <nav className="site-footer__menu">
         <div className="site-footer__menu-wrapper wfp-wrapper ph3 ph0-lg">
-
           <div className="site-footer__menu-item">
             <h2 className="site-footer__menu-item-title">
               Sponsored by
