@@ -1,0 +1,58 @@
+.wrapper {
+  width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 auto;
+  margin-bottom: 160px;
+}
+
+.item {
+  width: 532px;
+  text-align: center;
+}
+
+.question {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 532px;
+  height: 96px;
+  border-radius: 16px;
+  background-color: var(--purple1);
+
+  &::after {
+    top: 38px;
+    right: 38px;
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://visionflow-video.talkit.ai/vf-talkit/abouts/arrow.svg);
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+    transform: rotate(0deg);
+  }
+  &.active::after {
+    transform: rotate(180deg);
+  }
+}
+
+.accordionContent {
+  text-align: left;
+  margin-top: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 0 0 16px;
+  color: #666;
+}
+
+.accordionContentOpen {
+  max-height: 250px;
+  padding: 20px 24px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 16px;
+}

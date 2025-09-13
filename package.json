@@ -1,0 +1,48 @@
+{
+  "name": "vf-talkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@fontsource/lexend": "^5.2.9",
+    "@headlessui/react": "^2.2.4",
+    "@heroicons/react": "^2.2.0",
+    "@hookform/resolvers": "^5.1.1",
+    "antd": "^5.26.4",
+    "axios": "^1.10.0",
+    "code-inspector-plugin": "^0.4.5",
+    "framer-motion": "^12.23.5",
+    "github-markdown-css": "^5.8.1",
+    "gsap": "^3.13.0",
+    "i18next": "^25.3.2",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "lottie-react": "^2.4.1",
+    "next": "15.4.1",
+    "next-i18next": "^15.4.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.60.0",
+    "react-i18next": "^15.6.0",
+    "react-markdown": "^8.0.7",
+    "sass": "^1.59.2",
+    "swiper": "^11.2.10",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.1",
+    "tailwindcss": "^4",
+    "typescript": "^5.8.3"
+  }
+}
