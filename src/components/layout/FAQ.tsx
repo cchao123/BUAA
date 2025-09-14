@@ -33,7 +33,7 @@ export default function FAQ() {
                           <h2 className="hero__title" style={{
                             fontSize: 16
                           }}>Metting Description</h2>
-              
+
                           <div className="hero__actions">
                             <a href=""
                               target="_blank" className="button-new button-new--white">Read more</a>
@@ -184,89 +184,76 @@ export default function FAQ() {
       <div className="layout-content page-body">
         <Three></Three>
         <div
-            className="paragraph paragraph--type-card-links-featured paragraph--view-mode-full wfp-wrapper mv4 mv5-lg">
-            <div className="ta-center mv4">
-              <a href="/speaker" className="button-new">More Speakers</a>
-            </div>
+          className="paragraph paragraph--type-card-links-featured paragraph--view-mode-full wfp-wrapper mv4 mv5-lg">
+          <div className="ta-center mv4">
+            <a href="/speaker" className="button-new">More Speakers</a>
           </div>
+        </div>
         <TechnicallySupported></TechnicallySupported>
       </div>
     </div>
   );
 }
 
-
-
 function Three() {
   return <aside class="field field--field-related-stories">
     <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Patrons</h2>
     <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
       <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/gaza-needs-immediate-ceasefire-and-massive-scale-food-assistance">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="/images/00001.png" alt="Patron 1" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-07-25T12:00:00Z">25 July 2025</time>
-
-            </span>
-            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Gaza needs immediate ceasefire and massive scale-up in food assistance
-            </h3>
-          </div>
-        </a>
+        <div class="news-release-teaser-related__cover">
+          <img loading="lazy" src="/images/00001.png" alt="Patron 1" />
+        </div>
+        <div class="news-release-teaser-related__text pt1 pb1">
+          <span class="db mt2 mb1 fs6 c-primary">
+            Xiaojiang Li
+          </span>
+          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+            Jinan University
+          </h3>
+        </div>
       </article>
 
       <article aria-labelledby="related--2" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/understanding-famine-what-it-how-you-can-act">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="/images/00002.png" alt="Patron 2" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-06-10T12:00:00Z">10 June 2025</time>
-
-            </span>
-            <h3 id="related--2" class="news-release-teaser-related__title db lh-heading fs5">
-              Understanding famine: what it is, how you can act
-            </h3>
-          </div>
-        </a>
+        <div class="news-release-teaser-related__cover">
+          <img loading="lazy" src="/images/00002.png" alt="Patron 2" />
+        </div>
+        <div class="news-release-teaser-related__text pt1 pb1">
+          <span class="db mt2 mb1 fs6 c-primary">
+            Ke ZHANG
+          </span>
+          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+            Shenzhen Bay Laboratory
+          </h3>
+        </div>
       </article>
 
       <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/eyewitness-we-have-plenty-food-ready-go-gaza-we-just-need-go-ahead">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="/images/00003.png" alt="Patron 3" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-05-18T12:00:00Z">18 May 2025</time>
-
-            </span>
-            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Eyewitness: 'We have plenty of food ready to go into Gaza – we just need the go-ahead'
-            </h3>
-          </div>
-        </a>
+        <div class="news-release-teaser-related__cover">
+          <img loading="lazy" src="/images/00003.png" alt="Patron 3" />
+        </div>
+        <div class="news-release-teaser-related__text pt1 pb1">
+          <span class="db mt2 mb1 fs6 c-primary">
+            Xiaojiang Li
+          </span>
+          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+            Jinan University
+          </h3>
+        </div>
       </article>
 
       <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/eyewitness-we-have-plenty-food-ready-go-gaza-we-just-need-go-ahead">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="/images/00003.png" alt="Patron 3" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-05-18T12:00:00Z">18 May 2025</time>
 
-            </span>
-            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Eyewitness: 'We have plenty of food ready to go into Gaza – we just need the go-ahead'
-            </h3>
-          </div>
-        </a>
+        <div class="news-release-teaser-related__cover">
+          <img loading="lazy" src="/images/00004.png" alt="Patron 3" />
+        </div>
+        <div class="news-release-teaser-related__text pt1 pb1">
+          <span class="db mt2 mb1 fs6 c-primary">
+            Shuying SUN
+          </span>
+          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+            Johns Hopkins School of Medicine
+          </h3>
+        </div>
       </article>
     </div>
   </aside>
@@ -283,11 +270,10 @@ function TechnicallySupported() {
           </div>
           <div class="news-release-teaser-related__text pt1 pb1">
             <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-07-25T12:00:00Z">25 July 2025</time>
-
+              Xiaojiang Li
             </span>
             <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Gaza needs immediate ceasefire and massive scale-up in food assistance
+              Jinan University
             </h3>
           </div>
         </a>
@@ -300,11 +286,10 @@ function TechnicallySupported() {
           </div>
           <div class="news-release-teaser-related__text pt1 pb1">
             <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-06-10T12:00:00Z">10 June 2025</time>
-
+              Ke ZHANG
             </span>
-            <h3 id="related--2" class="news-release-teaser-related__title db lh-heading fs5">
-              Understanding famine: what it is, how you can act
+            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+              Shenzhen Bay Laboratory
             </h3>
           </div>
         </a>
