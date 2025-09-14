@@ -167,13 +167,13 @@ export const institutionsData1: InstitutionItem[] = [
   {
     id: '1',
     name: 'Zhengzhou University',
-    logo: 'http://www.aees.org/Assets/images/logo/IEEE_1.png',
+    logo: '/images/IEEE_1.png',
     alt: 'Zhengzhou University'
   },
   {
     id: '2',
     name: 'Beijing University of Technology',
-    logo: 'http://www.aees.org/Assets/images/logo/XUT-logo.png',
+    logo: '/images/XUT-logo.png',
     alt: 'Beijing University of Technology'
   },
 ];
@@ -183,31 +183,25 @@ export const institutionsData: InstitutionItem[] = [
   {
     id: '1',
     name: 'Zhengzhou University',
-    logo: 'http://www.aees.org/Assets/images/logo/Zhengzhou_University-1.png',
+    logo: '/images/IEEE_1.png',
     alt: 'Zhengzhou University'
   },
   {
     id: '2',
     name: 'Beijing University of Technology',
-    logo: 'http://www.aees.org/Assets/images/logo/Zhengzhou_University-1.png',
+    logo: '/images/XUT-logo.png',
     alt: 'Beijing University of Technology'
   },
   {
-    id: '3',
-    name: 'Tsinghua University',
-    logo: 'http://www.aees.org/Assets/images/logo/Pporto-logo.png',
-    alt: 'Tsinghua University'
+    id: '1',
+    name: 'Zhengzhou University',
+    logo: '/images/IEEE_1.png',
+    alt: 'Zhengzhou University'
   },
   {
-    id: '4',
-    name: 'Peking University',
-    logo: 'http://www.aees.org/Assets/images/logo/lzjtu-1.png',
-    alt: 'Peking University'
-  },
-  {
-    id: '5',
-    name: 'Fudan University',
-    logo: 'http://www.aees.org/Assets/images/logo/SUEP-1.png',
-    alt: 'Fudan University'
+    id: '2',
+    name: 'Beijing University of Technology',
+    logo: '/images/XUT-logo.png',
+    alt: 'Beijing University of Technology'
   },
 ];
