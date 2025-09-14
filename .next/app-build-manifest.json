@@ -19,7 +19,7 @@
       "static/chunks/235-9833726338c0a509.js",
       "static/chunks/app/layout-c314d8f9ff41d974.js"
     ],
-    "/registration/page": [
+    "/call-for-papers/page": [
       "static/chunks/webpack-b4f89bf88051ac10.js",
       "static/chunks/b84a52ef-862eec8f170f8b27.js",
       "static/chunks/662-3b3edde6dce4d8d2.js",
@@ -27,7 +27,7 @@
       "static/css/f531a0572ab9515c.css",
       "static/chunks/182-b7f18e51ce263f50.js",
       "static/chunks/326-d83fdccc3adf62eb.js",
-      "static/chunks/app/registration/page-805b4a67285cbff2.js"
+      "static/chunks/app/call-for-papers/page-c30db1a57f4d4dfe.js"
     ],
     "/contact/page": [
       "static/chunks/webpack-b4f89bf88051ac10.js",
@@ -39,7 +39,7 @@
       "static/chunks/326-d83fdccc3adf62eb.js",
       "static/chunks/app/contact/page-310b6340e2c1bc69.js"
     ],
-    "/call-for-papers/page": [
+    "/home/page": [
       "static/chunks/webpack-b4f89bf88051ac10.js",
       "static/chunks/b84a52ef-862eec8f170f8b27.js",
       "static/chunks/662-3b3edde6dce4d8d2.js",
@@ -47,7 +47,8 @@
       "static/css/f531a0572ab9515c.css",
       "static/chunks/182-b7f18e51ce263f50.js",
       "static/chunks/326-d83fdccc3adf62eb.js",
-      "static/chunks/app/call-for-papers/page-c30db1a57f4d4dfe.js"
+      "static/chunks/106-2b9f717dc6d30a71.js",
+      "static/chunks/app/home/page-db1057899c836e45.js"
     ],
     "/page": [
       "static/chunks/webpack-b4f89bf88051ac10.js",
@@ -57,10 +58,10 @@
       "static/css/f531a0572ab9515c.css",
       "static/chunks/182-b7f18e51ce263f50.js",
       "static/chunks/326-d83fdccc3adf62eb.js",
-      "static/chunks/106-964320224d9bd914.js",
+      "static/chunks/106-2b9f717dc6d30a71.js",
       "static/chunks/app/page-6c802c58b9fd4c72.js"
     ],
-    "/home/page": [
+    "/registration/page": [
       "static/chunks/webpack-b4f89bf88051ac10.js",
       "static/chunks/b84a52ef-862eec8f170f8b27.js",
       "static/chunks/662-3b3edde6dce4d8d2.js",
@@ -68,8 +69,7 @@
       "static/css/f531a0572ab9515c.css",
       "static/chunks/182-b7f18e51ce263f50.js",
       "static/chunks/326-d83fdccc3adf62eb.js",
-      "static/chunks/106-964320224d9bd914.js",
-      "static/chunks/app/home/page-db1057899c836e45.js"
+      "static/chunks/app/registration/page-805b4a67285cbff2.js"
     ],
     "/speaker/page": [
       "static/chunks/webpack-b4f89bf88051ac10.js",
