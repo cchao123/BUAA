@@ -95,27 +95,22 @@ export interface ImportantDateItem {
 export const importantDatesData: ImportantDateItem[] = [
   {
     id: '1',
-    event: 'Paper Submission Deadline',
-    date: 'August 15th, 2025'
-  },
-  {
-    id: '2',
-    event: 'Notification of Acceptance',
-    date: 'September 5th, 2025'
-  },
-  {
-    id: '3',
-    event: 'Camera-Ready Paper Due',
-    date: 'September 15th, 2025'
-  },
-  {
-    id: '4',
-    event: 'Registration Deadline',
+    event: 'Submission of Full Paper',
     date: 'September 20th, 2025'
   },
   {
-    id: '5',
-    event: 'Conference Date',
-    date: 'October 10-12th, 2025'
+    id: '2',
+    event: 'Notification Deadline',
+    date: 'September 30th, 2025'
+  },
+  {
+    id: '3',
+    event: 'Registration Deadline',
+    date: 'October 10th, 2025'
+  },
+  {
+    id: '4',
+    event: 'Conference Dates',
+    date: 'October 17-19, 2025'
   }
 ];

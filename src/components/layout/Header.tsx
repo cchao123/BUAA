@@ -60,10 +60,10 @@ export default function Header() {
     <header className={`site-header ${isScrolled ? 'site-header--hide' : ''}`} data-js-hook="site-header" role="banner">
       <div className="site-header__wrapper wfp-wrapper">
         <div className="site-header__branding">
-          <a href="https://www.wfp.org/" className="site-header__logo">
+          <a href="/" className="site-header__logo">
             <img src="https://static-data.gaokao.cn/upload/logo/47.jpg" alt="UN World Food Programme" />
           </a>
-          <a href="https://www.wfp.org/" className="site-header__slogan">
+          <a href="/" className="site-header__slogan">
             SMART<br />
             Symposium
           </a>
@@ -113,7 +113,7 @@ export default function Header() {
                       style={{ opacity: isLangOpen ? '1' : '0' }}
                     >
                       <a className="menu__item-closer--mobile" data-js-hook="menu__panel-closer"
-                        href="https://www.wfp.org/#languages-megamenu-panel-e7b04579-9673-4f4f-bdf9-ffc80e7b09eb"
+                        href="/"
                         aria-controls="languages-megamenu-panel-e7b04579-9673-4f4f-bdf9-ffc80e7b09eb"
                       >Back</a>
 

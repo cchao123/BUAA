@@ -1141,7 +1141,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
   .figures-new__header {
     display: grid;
-    grid-template-columns: 1fr var(--box-launch--width);
+    /* grid-template-columns: 1fr var(--box-launch--width); */
     grid-template-rows: 1fr 1fr;
     -webkit-column-gap: 30px;
     -moz-column-gap: 30px;

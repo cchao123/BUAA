@@ -8,6 +8,7 @@ import '@/css/font.css';
 import '@/css/page.css';
 import '@/css/style.css';
 import '@/css/table.css';
+import '@/css/three.css';
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],

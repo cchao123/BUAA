@@ -8,7 +8,7 @@ export default function Friend() {
   return (
     <div id="block-footer">
       <footer className="site-footer" role="contentinfo">
-        <nav className="site-footer__menu">
+        {/* <nav className="site-footer__menu">
           <div className="site-footer__menu-wrapper wfp-wrapper ph3 ph0-lg">
             <div className="site-footer__menu-item">
               <h2 className="site-footer__menu-item-title">
@@ -30,7 +30,7 @@ export default function Friend() {
               <img src="http://www.aees.org/Assets/images/logo/Zhengzhou_University-1.png" />
             </div>
           </div>
-        </nav>
+        </nav> */}
         <FooterNav />
       </footer>
     </div>

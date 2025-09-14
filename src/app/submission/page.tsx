@@ -14,20 +14,25 @@ export default function CallForPapers() {
           <div className="promo-banner__wrapper wfp-wrapper ph3 ph0-lg" style={{ justifyContent: "flex-start" }}>
             <>
               <br />
-              <span className="promo-banner__text">Template Download</span>
+              <p className="promo-banner__text" style={{ textAlign: 'left', width: '100%'}}>Template Download</p>
               <br />
               <br />
-              <div className="figures-new__text ph3 ph0-lg" style={{
+              {/* <div className="figures-new__text ph3 ph0-lg" style={{
                 textAlign: 'left',
                 width: '100%'
               }}>
                 <p>Please prepare your paper under the <a href="">Template.doc</a> or <a href="">Conference latex template</a> </p>
-              </div>
+              </div> */}
+
+              <Download></Download>
+              <br />
             </>
 
             <>
               <br />
-              <span className="promo-banner__text">Submission Methods</span>
+              <br />
+              <br />
+              <p className="promo-banner__text" style={{ textAlign: 'left', width: '100%'}}>Submission Methods</p>
               <br />
               <br />
               <div className="figures-new__text ph3 ph0-lg" style={{
@@ -79,27 +84,7 @@ export default function CallForPapers() {
                 textAlign: 'left',
                 width: '100%'
               }}>
-                <table width={300} style={{ width: '600px' }}>
-                  <thead>
-                    <tr>
-                      <td>Submission of Full Paper</td>
-                      <td>September 20th, 2025</td>
-                    </tr></thead>
-                  <tbody>
-                    <tr>
-                      <td>Notification Deadline</td>
-                      <td>September 30th, 2025</td>
-                    </tr>
-                    <tr>
-                      <td>Registration Deadline</td>
-                      <td>October 10th, 2025</td>
-                    </tr>
-                    <tr>
-                      <td>Conference Dates</td>
-                      <td>October 17- 19, 2025</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <ImportantDatesTable />
               </div>
             </>
 
@@ -108,5 +93,85 @@ export default function CallForPapers() {
       </Main>
       <Footer />
     </>
+  );
+}
+
+
+function Download() {
+  return <div className="content-side-image__content">
+    <aside className="document-download">
+      <h2 className="fs5 fs4-lg" style={{ textAlign: 'left'}}>Template.doc</h2>
+      <p className="document-download__file-type file-type file-type--document" style={{textAlign: 'left', textIndent: '1rem'}}>127.7 KB</p>
+      <div className="document-download__buttons buttons">
+        <a href="" className="button-new button-new--primary">Download</a>
+      </div>
+    </aside>
+
+    <aside className="document-download">
+      <h2 className="fs5 fs4-lg" style={{ textAlign: 'left'}}>Conference latex template</h2>
+      <p className="document-download__file-type file-type file-type--document" style={{textAlign: 'left', textIndent: '1rem'}}>Zip | 3.02 MB</p>
+      <div className="document-download__buttons buttons">
+        <a href="" className="button-new button-new--primary">Download</a>
+      </div>
+    </aside>
+    <br />
+  </div>
+}
+
+
+import { documentTableData, importantDatesData } from '@/constants';
+import DataTable from '@/components/common/DataTable';
+
+export function TableList() {
+  const columns = [
+    {
+      key: 'title',
+      title: 'Date'
+    },
+    {
+      key: 'actions',
+      title: '文件',
+      className: 'document-links-table__actions-head',
+      render: (value: any, record: any) => (
+        <div className="document-links-table__actions-cell">
+          <span className="file-type file-type--document">
+            {record.fileType} | {record.fileSize}
+          </span>
+        </div>
+      )
+    }
+  ];
+
+  return <div className="field field--field-publication-links">
+    <div>
+      <section className="document-links-table">
+        <DataTable 
+          data={documentTableData}
+          columns={columns}
+          dataVisibleRows="5"
+        />
+      </section>
+    </div>
+  </div>
+}
+
+function ImportantDatesTable() {
+  const columns = [
+    {
+      key: 'event',
+      title: 'Event'
+    },
+    {
+      key: 'date',
+      title: 'Date'
+    }
+  ];
+
+  return (
+    <DataTable 
+      data={importantDatesData}
+      columns={columns}
+      className="wfp-table--data"
+    />
   );
 }

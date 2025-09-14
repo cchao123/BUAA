@@ -29,21 +29,13 @@ export default function FAQ() {
                       </div>
                       <div className="hero__content">
                         <div className="wfp-wrapper hero__inner-wrapper ph3 ph0-lg">
-                          <h1 className="hero__title">Call for Paper (Flyer)</h1>
+                          <h1 className="hero__title">Metting title</h1>
                           <h2 className="hero__title" style={{
                             fontSize: 16
-                          }}>Topics of interest for submission include, but
-                            are not limited to:</h2>
-                          <ul>
-                            <li> ALS Cell Biology</li>
-                            <li> RNA Metabolism and Stress Granules</li>
-                            <li>Liquid-Liquid Phase Separation</li>
-                            <li> Animal and iPSC models</li>
-                            <li> ALS Diagnosis and Therapeutics</li>
-                            <li>Other Neurodegenerative Diseases</li>
-                          </ul>
+                          }}>Metting Description</h2>
+              
                           <div className="hero__actions">
-                            <a href="https://www.wfp.org/stories/famine-grips-gaza-families-turn-desperate-measures-survive"
+                            <a href=""
                               target="_blank" className="button-new button-new--white">Read more</a>
                           </div>
                         </div>
@@ -101,7 +93,7 @@ export default function FAQ() {
                     <div
                       className="paragraph paragraph--type-card-links-featured paragraph--view-mode-full wfp-wrapper mv4 mv5-lg">
                       <div className="ta-center mv4">
-                        <a href="https://www.wfp.org/stories" className="button-new">Read more stories</a>
+                        {/* <a href="https://www.wfp.org/stories" className="button-new">Read more stories</a> */}
                       </div>
                     </div>
 
@@ -109,15 +101,27 @@ export default function FAQ() {
                       <div className="wfp-wrapper figures-new__wrapper">
                         <header className="figures-new__header">
                           <div className="figures-new__title">
-                            <h2 className="h3 ph3 ph0-lg">
-                              Call for Paper (Flyer)
-                            </h2>
+                            <div className="figures-new__text ph3 ph0-lg">
+                              <p style={{ color: '#000' }}><b style={{
+                                color: '#0d295c',
+                                fontSize: 24,
+                              }}>Call for Submission</b>:
+                                <br />
+                                ICRCV invites submissions on a wide range of research topics. <a href="">(Submission System)</a></p>
+                            </div>
                           </div>
                           <div className="figures-new__text ph3 ph0-lg">
-                            <p>All submissions must be done electronically through the Easychair Submission System(投稿链接) .
-                            </p>
-
+                            <p><b style={{
+                              color: '#0d295c',
+                              fontSize: 24,
+                            }}>Call for Reviewer</b>:
+                              <br />If you are interested in becoming one of reviewers, please submit your resume to <a href="">icrcv_conf@163.com</a>.</p>
+                            <p><b style={{
+                              color: '#0d295c',
+                              fontSize: 24,
+                            }}>Call for Delegate</b>:<br />Delegate Online Registration <a href="">(Click)</a></p>
                           </div>
+
                           <aside className="figures-new__aside ph3 ph0-lg">
                             <div className="figures-new__box-launch">
                               <h3 className="figures-new__box-launch-title">Call for Paper (Flyer)</h3>
@@ -132,8 +136,9 @@ export default function FAQ() {
                         </header>
                       </div>
 
-
                       <section className="key-stats">
+                        <br />
+                        <br />
                         <div className="wfp-wrapper ph3 ph0-lg">
                           <h2 className="page-stripe__title key-stats__title"><span>Important Dates</span></h2>
                           <ul className="key-stats__items">
@@ -154,87 +159,173 @@ export default function FAQ() {
                       </section>
                     </section>
 
-                    <section className="theme-launches">
+                    {/* <section className="theme-launches">
                       <div className="theme-launches__wrapper wfp-wrapper ph3 ph0-md">
                         <header className="theme-launches__header">
                           <h2 className="theme-launches__title">ORGANIZERS</h2>
                           <div className="theme-launches__text">
                             <div className="field field--field-rich-text"></div>
                           </div>
-                          {/* <!-- <a href="https://www.wfp.org/our-work" className="theme-launches__button button-new">See all
-                          topics</a> --> */}
+                       
                         </header>
                         <img width="50px" src="./src/organizer/00001.png" />
                         <img width="50px" src="./src/organizer/00002.png" />
                         <img width="50px" src="./src/organizer/00003.png" />
                         <img width="50px" src="./src/organizer/00004.png" />
                       </div>
-                    </section>
-
-
-                    <div className="paragraph paragraph--type-card-links-featured paragraph--view-mode-full wfp-wrapper mv4 mv5-lg">
-                      <section className="explore-new">
-                        <h2 className="page-stripe__title wfp-wrapper ph3 ph0-lg">More from WFP</h2>
-                        <div className="explore-new__wrapper wfp-wrapper ph3 ph0-lg">
-                          <article className="explore-new__item" aria-labelledby="label--mtEX8Q4ubQg">
-                            <a href="https://www.wfp.org/publications/wfp-annual-review" title="WFP Annual Review "
-                              target="_blank">
-                              <div className="explore-new__item-image">
-                              </div>
-                              <div className="explore-new__item-text">
-                                <p className="explore-new__item-meta">Annual Review</p>
-                                <h3 id="label--mtEX8Q4ubQg" className="explore-new__item-title">WFP Annual Review </h3>
-                                <p className="explore-new__item-info"><strong>Publication</strong><span
-                                  className="explore-new__item-info-date"> | 24 June 2025</span></p>
-                              </div>
-                            </a>
-                          </article>
-                          <article className="explore-new__item" aria-labelledby="label--S-0cYSB4Rg0">
-                            <a href="https://www.wfp.org/stories/war-ukraine-how-wfp-helping-one-family-plant-seeds-wake-bombs"
-                              title="War in Ukraine: How WFP is helping one family plant seeds in the wake of bombs">
-                              <div className="explore-new__item-image">
-                                {/* <div
-                                style="background-image: url(&#39;https://www.wfp.org/sites/default/files/styles/card_featured/public/images/WF11038167%20UKR_20250523_WFP_Sayed-Asif-Mahmud__DSC1726_0.jpg?itok=LSdgAyuy&#39;)">
-                              </div> */}
-                              </div>
-                              <div className="explore-new__item-text">
-                                <p className="explore-new__item-meta">Ukraine</p>
-                                <h3 id="label--S-0cYSB4Rg0" className="explore-new__item-title">War in Ukraine: How WFP is
-                                  helping one family plant seeds in the wake of bombs</h3>
-                                <p className="explore-new__item-info"><strong>Story</strong><span
-                                  className="explore-new__item-info-date"> | 10 July 2025</span></p>
-                              </div>
-                            </a>
-                          </article>
-                          <article className="explore-new__item" aria-labelledby="label--zbVsXlVQo_c">
-                            <a href="https://www.wfp.org/stories/pastoralism-gets-reboot-drying-kenya"
-                              title="Pastoralism gets a reboot in drying Kenya">
-                              <div className="explore-new__item-image">
-                                {/* <div
-                                style="background-image: url(&#39;https://www.wfp.org/sites/default/files/styles/card_featured/public/images/main%20photo_WFP_KEN_Isiolo_Patrick%20Mwangi-29_0.jpg?itok=JQc4kcK2&#39;)">
-                              </div> */}
-                              </div>
-                              <div className="explore-new__item-text">
-                                <p className="explore-new__item-meta">Resilience</p>
-                                <h3 id="label--zbVsXlVQo_c" className="explore-new__item-title">Pastoralism gets a reboot in
-                                  drying Kenya</h3>
-                                <p className="explore-new__item-info"><strong>Story</strong><span
-                                  className="explore-new__item-info-date"> | 4 August 2025</span></p>
-                              </div>
-                            </a>
-                          </article>
-                        </div>
-                      </section>
-                    </div>
+                    </section> */}
                   </div>
-
                 </div>
               </div>
             </div>
-
           </div>
         </section>
       </main>
+      <div className="layout-content page-body">
+        <Three></Three>
+        <div
+            className="paragraph paragraph--type-card-links-featured paragraph--view-mode-full wfp-wrapper mv4 mv5-lg">
+            <div className="ta-center mv4">
+              <a href="/speaker" className="button-new">More Speakers</a>
+            </div>
+          </div>
+        <TechnicallySupported></TechnicallySupported>
+      </div>
     </div>
   );
+}
+
+
+
+function Three() {
+  return <aside class="field field--field-related-stories">
+    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Patrons</h2>
+    <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
+      <article aria-labelledby="related" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/gaza-needs-immediate-ceasefire-and-massive-scale-food-assistance">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="/images/00001.png" alt="Patron 1" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-07-25T12:00:00Z">25 July 2025</time>
+
+            </span>
+            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+              Gaza needs immediate ceasefire and massive scale-up in food assistance
+            </h3>
+          </div>
+        </a>
+      </article>
+
+      <article aria-labelledby="related--2" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/understanding-famine-what-it-how-you-can-act">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="/images/00002.png" alt="Patron 2" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-06-10T12:00:00Z">10 June 2025</time>
+
+            </span>
+            <h3 id="related--2" class="news-release-teaser-related__title db lh-heading fs5">
+              Understanding famine: what it is, how you can act
+            </h3>
+          </div>
+        </a>
+      </article>
+
+      <article aria-labelledby="related" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/eyewitness-we-have-plenty-food-ready-go-gaza-we-just-need-go-ahead">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="/images/00003.png" alt="Patron 3" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-05-18T12:00:00Z">18 May 2025</time>
+
+            </span>
+            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+              Eyewitness: 'We have plenty of food ready to go into Gaza – we just need the go-ahead'
+            </h3>
+          </div>
+        </a>
+      </article>
+
+      <article aria-labelledby="related" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/eyewitness-we-have-plenty-food-ready-go-gaza-we-just-need-go-ahead">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="/images/00003.png" alt="Patron 3" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-05-18T12:00:00Z">18 May 2025</time>
+
+            </span>
+            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+              Eyewitness: 'We have plenty of food ready to go into Gaza – we just need the go-ahead'
+            </h3>
+          </div>
+        </a>
+      </article>
+    </div>
+  </aside>
+}
+
+function TechnicallySupported() {
+  return <aside class="field field--field-related-stories">
+    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Patrons</h2>
+    <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
+      <article aria-labelledby="related" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/gaza-needs-immediate-ceasefire-and-massive-scale-food-assistance">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="http://www.aees.org/Assets/images/logo/Zhengzhou_University-1.png" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-07-25T12:00:00Z">25 July 2025</time>
+
+            </span>
+            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+              Gaza needs immediate ceasefire and massive scale-up in food assistance
+            </h3>
+          </div>
+        </a>
+      </article>
+
+      <article aria-labelledby="related--2" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/understanding-famine-what-it-how-you-can-act">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="/public/images/00001.png" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-06-10T12:00:00Z">10 June 2025</time>
+
+            </span>
+            <h3 id="related--2" class="news-release-teaser-related__title db lh-heading fs5">
+              Understanding famine: what it is, how you can act
+            </h3>
+          </div>
+        </a>
+      </article>
+
+      <article aria-labelledby="related" class="news-release-teaser-related h-100">
+        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/eyewitness-we-have-plenty-food-ready-go-gaza-we-just-need-go-ahead">
+          <div class="news-release-teaser-related__cover">
+            <img loading="lazy" src="/public/images/00003.png" />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span class="db mt2 mb1 fs6 c-primary">
+              <time datetime="2025-05-18T12:00:00Z">18 May 2025</time>
+
+            </span>
+            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+              Eyewitness: ‘We have plenty of food ready to go into Gaza – we just need the go-ahead’
+            </h3>
+          </div>
+        </a>
+      </article>
+    </div>
+  </aside>
 }
