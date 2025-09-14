@@ -200,16 +200,16 @@ export default function FAQ() {
 }
 
 function Organizer() {
-  return <aside class="field field--field-related-stories">
-    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Organizer</h2>
-    <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
+  return <aside className="field field--field-related-stories">
+    <h2 className="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Organizer</h2>
+    <div className="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
       {speakersData.map((speaker, index) => (
         <article 
           key={speaker.id} 
           aria-labelledby={`related-${index}`} 
-          class="news-release-teaser-related h-100"
+          className="news-release-teaser-related h-100"
         >
-          <div class="news-release-teaser-related__cover">
+          <div className="news-release-teaser-related__cover">
             <img 
               style={{ transform: 'translateX(50%)' }}
               width={'50%'}
@@ -218,16 +218,16 @@ function Organizer() {
               alt={speaker.alt} 
             />
           </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
+          <div className="news-release-teaser-related__text pt1 pb1">
             <span 
-              class="db mt2 mb1 fs6 c-primary" 
+              className="db mt2 mb1 fs6 c-primary" 
               style={{textAlign: 'center'}}
             >
               {speaker.name}
             </span>
             <h3 
               id={`related-${index}`} 
-              class="news-release-teaser-related__title db lh-heading fs5" 
+              className="news-release-teaser-related__title db lh-heading fs5" 
               style={{textAlign: 'center'}}
             >
               {speaker.affiliation}
@@ -240,10 +240,10 @@ function Organizer() {
 }
 
 function Patrons({title , list}: {title: string, list: InstitutionItem[]}) {
-  return <aside class="field field--field-related-stories">
-    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">{title}</h2>
+  return <aside className="field field--field-related-stories">
+    <h2 className="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">{title}</h2>
     <div 
-      class="wfp-wrapper ph3 ph0-lg"
+      className="wfp-wrapper ph3 ph0-lg"
       style={{
         display: 'flex',
         flexWrap: 'wrap',
