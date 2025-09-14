@@ -10,9 +10,7 @@ import { useTranslation } from "react-i18next";
 const localeMap = {
   zh: zhCN,
   en: enUS,
-  fr: frFR,
   jp: jaJP,
-  zh_hant: zhCN, // 使用简体中文的locale
 };
 
 interface AntdProviderProps {

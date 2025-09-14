@@ -1,221 +1,44 @@
-const TalkitLearning = [
-  {
-    title: '随时随地，想学就学',
-    des: '即使在地铁中网络不佳、<br />没有麦克风也能正常使用',
-  },
-  {
-    title: '内容多样，灵活丰富',
-    des: '提供海量定制化学习主题，<br />形式多样，趣味十足',
-  },
-  {
-    title: '精准反馈与训练',
-    des: '精准识别薄弱点，<br />生成个性化训练内容',
-  },
-  {
-    title: '无惧开口，自信表达',
-    des: '轻松无压力的练习环境，<br />让表达更自然更自在',
-  },
-  {
-    title: '让学习变得有趣',
-    des: '融合互动元素、进度系统<br />与沉浸式情景探索，<br />让学习像游戏一样好玩',
-  },
-];
-
-const TraditionaltLearning = [
-  {
-    des: '固定的学习时间和地点<br />让学习难以坚持',
-  },
-  {
-    des: '学习内容固定，<br />课程统一，千篇一律',
-  },
-  {
-    des: '反馈不精准不及时，<br />缺少有效复习方案',
-  },
-  {
-    des: '总是担心自己说的不好，<br />逐渐失去开口说英语的信心',
-  },
-  {
-    des: '难以长时间专注于枯燥的课本内容，<br />更难培养学习习惯',
-  },
-];
-
 export const translation = {
   Header: {
-    Product: '产品',
-    Talkit: 'Talkit',
-    TalkitForBusiness: '企业版 Talkit',
-    Feature: '功能特色',
-    TalkitCourse: 'Talkit 课程',
-    AiTutor: 'AI 导师',
-    AiPodcast: 'AI 播客',
-    GlobalConnect: '全球社区',
-    Blog: '博客文章',
-    About: '关于我们',
-    VisionFlow: 'VisionFlow（目的涌现）',
-    Careers: '加入我们',
-  },
-  Banner: {
-    Introduce1: '沉浸式语言新体验，',
-    Introduce2: '与AI伙伴一起进步',
-  },
-  MeetTalkit: {
-    Title: '关于我们',
-    Desc: ' 你的 AI 语言学习搭档，带你走进沉浸式 3D 世界，<br />在真实场景中学习、练习、提升社交表达。',
-    List: [
-      {
-        SubTitle: '创新沉浸式学习环境',
-        Desc: [
-          '探索沉浸感十足的 3D 学习空间',
-          '体验多样化的真实生活情境',
-          '拟人化AI虚拟角色互动',
-          '边玩边学，自然而然掌握语言',
-        ],
-        Button: '找你的AI口语搭子',
-      },
-      {
-        SubTitle: '个性化学习内容',
-        Desc: ['即时反馈与建议', '个性化定向训练与练习', '量身定制符合您需求的专属场景'],
-        Button: '追踪你的成长',
-      },
-      {
-        SubTitle: '让你的进步看得见',
-        Desc: ['词汇量积累和追踪', '准确的发音评估', '等级进阶与里程碑奖励机制'],
-        Button: '开启你的旅程',
-      },
-      {
-        SubTitle: '学习永不孤独',
-        Desc: ['与全球口语学习者交流', '组建学习小组，共同进步', '与 AI 伙伴畅聊无阻'],
-        Button: '加入我们的社区',
-      },
-    ],
-  },
-  Speaking: {
-    Title: 'Talkit 口语学习体系',
-  },
-  Learn: {
-    Title: '为什么选择Talkit学习?',
-    Desc: '更沉浸、更高效、更轻松、更有趣',
-    Talkit: 'Talkit',
-    Traditional: '传统口语教学模式',
-    TalkitLearning,
-    TraditionaltLearning,
-  },
-  Compare: {
-    Title: '物超所值',
-    Desc: '所有学习功能全部免费！每周一杯咖啡钱，学习效率涨10倍。',
-    Free: '免费版',
-    FreeList: [
-      '提供多种课程和教学模式，包括自由对话、<br />AI角色扮演、AI外教等',
-      '个性化学习路径，按自己的节奏学习',
-      '多样的AI虚拟角色帮助您练习不同话题的口语表达',
-    ],
-    Premium: '高级版',
-    PremiumList: ['无限学习内容', '无限学习时长', '解锁更像真人的AI互动'],
-  },
-  UserLoveOur: {
-    Title: '用户们都喜欢我们的产品',
-    Desc: '以下评价翻译自各国用户的反馈！',
-  },
-  Media: {
-    Title: '媒体报道',
-  },
-  FAQ: {
-    Title: '常见问题',
-    List: [
-      {
-        Q: 'Talkit 是免费的吗？',
-        A: 'Talkit 可免费下载和使用！你可以访问多个模块的课程内容，包括 AI 外教、角色扮演、闯关式课程、游戏化学习和个性化复盘。此外，系统会在后续互动中通过反复练习来强化你的薄弱点。如果你需要更多学习内容、更长学习时间，或想使用更高级的拟人化 AI 角色，付费计划是您的最佳选择。',
-      },
-      {
-        Q: 'Talkit适合哪些人？',
-        A: '我们的目标用户是具备一定英语基础并希望提高口语能力的人群。年龄和学历没有限制。我们的学习模式免费并全天候开放，非常适合内向的人在家里练习口语，不必面对真实的人群或社交压力。',
-      },
-      {
-        Q: 'Talkit有哪些话题和场景？',
-        A: 'Talkit 提供涵盖日常生活、商务、旅行、教育和个人成长等内容的多种对话，满足不同类型用户的多样化需求。未来，你还将能够创建专属的自定义场景和对话主题，练习任何你需要的内容。',
-      },
-      {
-        Q: '在Talkit中用户只能与AI虚拟角色沟通吗？',
-        A: '在 Talkit 中，您不仅可以与具有不同个性和兴趣爱好的 AI 虚拟角色沟通，还可以与真实用户发送语音消息，寻找语伴。您可以与其他真实用户交流互动，分享学习经验，在语言学习过程中互相鼓励和帮助。',
-      },
-      {
-        Q: '使用Talkit需要特殊设备和互联网连接吗？',
-        A: '不需要，只需要您的智能手机和网络连接即可。您可以在地铁等地方使用Talkit。',
-      },
-      {
-        Q: '如何为Talkit提供反馈或建议？',
-        A: '欢迎！Talkit 在“设置”部分提供了反馈功能。此外，在我们网站底部的“支持”中，您可以找到“反馈”并通过电子邮件发送给我们。您的声音对我们很重要，我们始终期待您的想法！',
-      },
-      {
-        Q: 'Talkit如何结合游戏与教育？',
-        A: '我们意识到，许多学习者缺乏完全沉浸式的英语环境，因此我们开发了 Talkit，以弥补这一差距，让更多人能够获得高质量的语言学习体验。Talkit 融入了排行榜、成就徽章系统和进度体系，以提升参与感并促进高效学习。',
-      },
-      {
-        Q: 'Talkit 如何保护用户隐私并使用其数据？',
-        A: '我们致力于公开、透明和诚信。用户必须在使用我们的产品之前阅读相关政策。我们也鼓励每个人理解数据保护的法律方面。产品中有隐私开关，允许用户选择是否允许收集分析数据，并匿名共享语音数据以改进产品。这种做法与其他语言学习产品和 AI 聊天机器人类似。',
-      },
-    ],
-  },
-  Footer: {
-    Product: '产品',
-    Talkit: 'Talkit',
-    TalkitForBusiness: '企业版 Talkit',
-    Feature: '功能特色',
-    TalkitCourse: 'Talkit 课程',
-    AiTutor: 'AI 导师',
-    AiPodcast: 'AI 播客',
-    GlobalConnect: '全球社区',
-    Company: '公司',
-    Visionflow: 'VisionFlow（目的涌现）',
-    Careers: '加入我们',
-    Blog: '博客文章',
-    Support: '支持',
-    TermOfUse: '使用条款',
-    PrivacyPolicy: '隐私政策',
-    Feedback: '用户反馈',
-    Copyright: '版权所有© 2025 Vision Flow -保留所有权利。',
-    Country: '中国',
-  },
-  AboutUs: {
-    Title: '关于<br />VisionFlow',
-    desc1:
-      'VisionFlow 由 Leo 于 2023 年创立，致力于运用 AI 技术打造沉浸式学习体验，革新传统语言学习模式，帮助学习者在现实生活中自信表达与沟通。我们的旗舰产品 Talkit 是您的专属 AI 语言伙伴，融合任务驱动教学、游戏化成长路径以及 AI 导师角色扮演等创新功能，在 3D 沉浸式世界中为您提供个性化的英语学习体验。',
-    desc2:
-      '在创建 VisionFlow 的过程中，Leo 从一部纪录片中的一句话获得灵感，并将其定为公司座右铭：<strong>"一直游到海水变蓝"。</strong>这句话寓意深远，代表着我们的核心信念：不断突破边界，持续探索前行，直至抵达理想境界：一个没有语言障碍、人人都能自由发声的"蓝色海洋"。',
-    Financing: '融资历史',
-    HistoryList: [
-      {
-        amount: '1000 万美元',
-        time: '2023 年 4 月',
-        text: '2023 年 4 月，VisionFlow 完成了 1000 万美元的种子轮融资。本轮融资由来自美国、新加坡的基金和家族办公室，同时也有部分知名企业家以个人身份参与投资。',
-      },
-    ],
-  },
-  Business: {
-    Title: '用Talkit全面提升<br />企业团队的英语沟通力<br /><br />',
-    Desc: '<strong>Talkit</strong>企业版正在与多个行业的企业开展试点合作。<br />通过我们的 AI 驱动企业培训服务，全面提升员工的。<br />商务英语能力。我们致力于帮助全球企业优化职场。<br />沟通，推动国际业务增长。',
-    SubTitle: '想为你的团队<br/>带来全新改变？',
+    Home: '首页',
+    CallForPapers: '征稿启事',
+    Submission: '投稿须知',
+    Registration: '注册详情',
     ContactUs: '联系我们',
   },
-  Course: {
-    Title: 'Talkit <br />智能语言课程，<br />专为您的成功打造',
-    Desc: '在精练的微课程中体验高效的场景化语言学习。',
-    Button: '立刻体验',
+  Footer: {
+    Product: 'Product',
+    Talkit: 'Talkit',
+    TalkitForBusiness: 'Talkit for business',
+    Feature: 'Feature',
+    TalkitCourse: 'Talkit Course',
+    AiTutor: 'AI tutor',
+    AiPodcast: 'AI podcast',
+    GlobalConnect: 'Global Connect',
+    Company: 'Company',
+    Visionflow: 'VisionFlow',
+    Careers: 'Careers',
+    Blog: 'Blog',
+    Support: 'Support',
+    TermOfUse: 'Term of use',
+    PrivacyPolicy: 'Privacy policy',
+    Feedback: 'Feedback',
+    Copyright: 'Copyright © 2025 Vision Flow - All Rights Reserved.',
+    Country: 'United States',
   },
-  Tutor: {
-    Title: '<br />Talkit AI 语言导师<br /> —— 您的24/7专属学习伙伴',
-    Desc: '体验AI智能语言辅导，<br />获得个性化教学指导、文化背景解析，<br />以及随时随地的无限对话练习。',
-  },
-  Podcast: {
-    Title: 'AI 语言学习播客<br /> —— 音频互动学习',
-    Desc: '体验互动式AI播客，聆听精彩对话内容，<br />实时参与互动练习，全面提升听力理解与<br />口语表达能力。',
-    Button: '即将上线',
-  },
-  Community: {
-    Title: '语言学习社区<br /> —— 在 3D 世界中一起练习',
-    Desc: '加入我们的全球语言学习社区，<br />真实用户通过虚拟形象在3D世界中共同练习。<br />通过互动小组活动和文化交流，体验社交化学习的',
-  },
-  Career: {
-    Title: '团队和招聘',
+  AboutUs: {
+    Title: 'About VisionFlow',
+    desc1:
+      'Founded by Leo in 2023, VisionFlow is revolutionizing language learning by creating immersive AI-powered experiences that empower learners to confidently communicate in the real world. Our flagship product, Talkit, serves as your personal AI language partner, delivering personalized English learning in immersive 3D worlds through innovative features including task-based language teaching, gamified progression, and AI tutor roleplay.',
+    desc2:
+      'When founding VisionFlow, Leo drew inspiration from a line in a documentary as our company motto: <strong>&quot;Swimming Out Till the Sea Turns Blue.&quot;</strong> This metaphor represents our commitment to pushing boundaries and venturing forward until we reach our ideal state—the &quot;blue sea&quot; where language barriers no longer exist and every voice can be heard.',
+    Financing: 'Financing History',
+    HistoryList: [
+      {
+        amount: '$10 million',
+        time: 'April 2023',
+        text: 'VisionFlow completed a $10 million seed round with investments from funds and family offices from the United States, Singapore, and some well-known entrepreneurs as individual investors.',
+      },
+    ],
   },
 };
