@@ -3,6 +3,7 @@
 import { SubTitle } from "./SubTitle";
 import styles from './FAQ.module.scss'
 import { useTranslation } from "react-i18next";
+import { speakersData } from '@/constants';
 
 
 export default function FAQ() {
@@ -199,61 +200,38 @@ function Three() {
   return <aside class="field field--field-related-stories">
     <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Patrons</h2>
     <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
-      <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <div class="news-release-teaser-related__cover">
-          <img loading="lazy" src="/images/00001.png" alt="Patron 1" />
-        </div>
-        <div class="news-release-teaser-related__text pt1 pb1">
-          <span class="db mt2 mb1 fs6 c-primary" style={{textAlign: 'center'}}>
-            Xiaojiang Li
-          </span>
-          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5" style={{textAlign: 'center'}}>
-            Jinan University
-          </h3>
-        </div>
-      </article>
-
-      <article aria-labelledby="related--2" class="news-release-teaser-related h-100">
-        <div class="news-release-teaser-related__cover">
-          <img loading="lazy" src="/images/00002.png" alt="Patron 2" />
-        </div>
-        <div class="news-release-teaser-related__text pt1 pb1">
-          <span class="db mt2 mb1 fs6 c-primary">Ke ZHANG
-          </span>
-          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-            Shenzhen Bay Laboratory
-          </h3>
-        </div>
-      </article>
-
-      <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <div class="news-release-teaser-related__cover">
-          <img loading="lazy" src="/images/00003.png" alt="Patron 3" />
-        </div>
-        <div class="news-release-teaser-related__text pt1 pb1">
-          <span class="db mt2 mb1 fs6 c-primary">
-            Xiaojiang Li
-          </span>
-          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-            Jinan University
-          </h3>
-        </div>
-      </article>
-
-      <article aria-labelledby="related" class="news-release-teaser-related h-100">
-
-        <div class="news-release-teaser-related__cover">
-          <img loading="lazy" src="/images/00004.png" alt="Patron 3" />
-        </div>
-        <div class="news-release-teaser-related__text pt1 pb1">
-          <span class="db mt2 mb1 fs6 c-primary">
-            Shuying SUN
-          </span>
-          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-            Johns Hopkins School of Medicine
-          </h3>
-        </div>
-      </article>
+      {speakersData.map((speaker, index) => (
+        <article 
+          key={speaker.id} 
+          aria-labelledby={`related-${index}`} 
+          class="news-release-teaser-related h-100"
+        >
+          <div class="news-release-teaser-related__cover">
+            <img 
+              style={{ transform: 'translateX(50%)' }}
+              width={'50%'}
+              loading="lazy" 
+              src={speaker.image} 
+              alt={speaker.alt} 
+            />
+          </div>
+          <div class="news-release-teaser-related__text pt1 pb1">
+            <span 
+              class="db mt2 mb1 fs6 c-primary" 
+              style={{textAlign: 'center'}}
+            >
+              {speaker.name}
+            </span>
+            <h3 
+              id={`related-${index}`} 
+              class="news-release-teaser-related__title db lh-heading fs5" 
+              style={{textAlign: 'center'}}
+            >
+              {speaker.affiliation}
+            </h3>
+          </div>
+        </article>
+      ))}
     </div>
   </aside>
 }

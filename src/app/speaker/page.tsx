@@ -27,10 +27,7 @@ export default function App() {
                               <h1 className="page-header-2__title">Contact Us</h1>
                             </div>
 
-                            <div className="page-header-2__image">
-                 
-                            </div>
-
+                            <div className="page-header-2__image"></div>
                             <div className="page-header-2__stats">
                               <img style={{margin: '0 auto'}} src="/images/0006.webp" alt="" />
                             </div>
@@ -39,17 +36,10 @@ export default function App() {
                           </div>
                         </div>
                       </section>
-
                     </div>
-
                   </div>
-
-
                 </div>
-
-
               </div>
-
             </div>
           </section>
         </main>

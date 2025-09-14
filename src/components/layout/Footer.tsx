@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { mainMenuItems, languageOptions } from '@/constants'
 
-export default function Friend() {
+export default function Footer() {
   const { t } = useTranslation();
 
   return (
@@ -36,8 +36,6 @@ export default function Friend() {
     </div>
   );
 }
-
-
 
 function FooterNav() {
   return <div className="site-footer__service">

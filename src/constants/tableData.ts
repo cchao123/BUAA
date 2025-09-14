@@ -114,3 +114,43 @@ export const importantDatesData: ImportantDateItem[] = [
     date: 'October 17-19, 2025'
   }
 ];
+
+// 演讲者数据
+export interface SpeakerItem {
+  id: string;
+  name: string;
+  affiliation: string;
+  image: string;
+  alt: string;
+}
+
+export const speakersData: SpeakerItem[] = [
+  {
+    id: '1',
+    name: 'Xiaojiang Li',
+    affiliation: 'Jinan University',
+    image: '/images/00001.png',
+    alt: 'Xiaojiang Li - Jinan University'
+  },
+  {
+    id: '2',
+    name: 'Ke ZHANG',
+    affiliation: 'Shenzhen Bay Laboratory',
+    image: '/images/00002.png',
+    alt: 'Ke ZHANG - Shenzhen Bay Laboratory'
+  },
+  {
+    id: '3',
+    name: 'Xiaojiang Li',
+    affiliation: 'Jinan University',
+    image: '/images/00003.png',
+    alt: 'Xiaojiang Li - Jinan University'
+  },
+  {
+    id: '4',
+    name: 'Shuying SUN',
+    affiliation: 'Johns Hopkins School of Medicine',
+    image: '/images/00004.png',
+    alt: 'Shuying SUN - Johns Hopkins School of Medicine'
+  }
+];
