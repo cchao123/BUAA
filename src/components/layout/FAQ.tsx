@@ -204,10 +204,10 @@ function Three() {
           <img loading="lazy" src="/images/00001.png" alt="Patron 1" />
         </div>
         <div class="news-release-teaser-related__text pt1 pb1">
-          <span class="db mt2 mb1 fs6 c-primary">
+          <span class="db mt2 mb1 fs6 c-primary" style={{textAlign: 'center'}}>
             Xiaojiang Li
           </span>
-          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
+          <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5" style={{textAlign: 'center'}}>
             Jinan University
           </h3>
         </div>
@@ -218,8 +218,7 @@ function Three() {
           <img loading="lazy" src="/images/00002.png" alt="Patron 2" />
         </div>
         <div class="news-release-teaser-related__text pt1 pb1">
-          <span class="db mt2 mb1 fs6 c-primary">
-            Ke ZHANG
+          <span class="db mt2 mb1 fs6 c-primary">Ke ZHANG
           </span>
           <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
             Shenzhen Bay Laboratory

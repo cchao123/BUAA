@@ -13090,7 +13090,7 @@ figure img.align-right+figcaption {
 
 @media screen and (min-width:64em) {
   .grid-up-to-3cols {
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(4, 1fr)
   }
 
   .page-stripe__title {
