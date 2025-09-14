@@ -7,7 +7,7 @@ import '@/css/layout.css';
 import '@/css/font.css';
 import '@/css/page.css';
 import '@/css/style.css';
-
+import '@/css/table.css';
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -19,9 +19,9 @@ import '@/css/style.css';
 // });
 
 export const metadata: Metadata = {
-  title: 'Talkit - AI language learning in immersive scenes',
+  title: 'title',
   description:
-    'Learn languages with AI tutors through immersive conversations and gamified practice. Connect with global learners on Talkit for free.',
+    '1',
 };
 
 export default function RootLayout({

@@ -37,6 +37,7 @@ export default function Header() {
         if (currentScrollY > lastScrollY) {
           // 向下滚动
           setIsLangOpen(false)
+          setIsScrolled(true);
         } else {
           // 向上滚动
           setIsScrolled(false);

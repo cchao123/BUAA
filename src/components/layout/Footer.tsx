@@ -28,10 +28,6 @@ export default function Friend() {
             </div>
             <div className='imgList'>
               <img src="http://www.aees.org/Assets/images/logo/Zhengzhou_University-1.png" />
-              <img src="https://cdn.wfp.org/guides/ui/assets/v0.0.1/logos/standard/en/wfp-logo-standard-white-en.svg" />
-              <img src="https://cdn.wfp.org/guides/ui/assets/v0.0.1/logos/standard/en/wfp-logo-standard-white-en.svg" />
-              <img src="https://cdn.wfp.org/guides/ui/assets/v0.0.1/logos/standard/en/wfp-logo-standard-white-en.svg" />
-              <img src="https://cdn.wfp.org/guides/ui/assets/v0.0.1/logos/standard/en/wfp-logo-standard-white-en.svg" />
             </div>
           </div>
         </nav>

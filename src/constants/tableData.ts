@@ -1,0 +1,121 @@
+// 文档表格数据
+export interface DocumentItem {
+  id: string;
+  title: string;
+  fileType: string;
+  fileSize: string;
+  downloadUrl: string;
+}
+
+export const documentTableData: DocumentItem[] = [
+  {
+    id: '1',
+    title: 'WFP Annual Review 2020 - Arabic',
+    fileType: 'PDF',
+    fileSize: '5.47 MB',
+    downloadUrl: 'https://docs.wfp.org/api/documents/WFP-0000131398/download/'
+  },
+  {
+    id: '2',
+    title: 'WFP Annual Review 2019',
+    fileType: 'HTML',
+    fileSize: '5.95 KB',
+    downloadUrl: 'https://publications.wfp.org/2019/en/annual-report/'
+  },
+  {
+    id: '3',
+    title: 'WFP Annual Review 2018 - English',
+    fileType: 'HTML',
+    fileSize: '5.86 KB',
+    downloadUrl: 'https://publications.wfp.org/2018/en/annual-report/'
+  },
+  {
+    id: '4',
+    title: 'WFP Annual Review 2018 - French',
+    fileType: 'HTML',
+    fileSize: '5.85 KB',
+    downloadUrl: 'https://publications.wfp.org/fr/rapport-annuel/2018'
+  },
+  {
+    id: '5',
+    title: 'WFP Annual Review 2018 - Spanish',
+    fileType: 'HTML',
+    fileSize: '5.88 KB',
+    downloadUrl: 'https://publications.wfp.org/es/reporte-anual/2018/'
+  },
+  {
+    id: '6',
+    title: 'WFP Annual Review 2018 - Arabic',
+    fileType: 'HTML',
+    fileSize: '4.76 KB',
+    downloadUrl: 'https://publications.wfp.org/ar/annual-report/2018'
+  }
+];
+
+// 注册费用表格数据
+export interface RegistrationFeeItem {
+  id: string;
+  category: string;
+  author: string;
+  presenter: string;
+  delegate: string;
+}
+
+export const registrationFeeData: RegistrationFeeItem[] = [
+  {
+    id: '1',
+    category: 'Non-Member',
+    author: '100 USD',
+    presenter: '100 USD',
+    delegate: '100 USD'
+  },
+  {
+    id: '2',
+    category: 'IEEE Member',
+    author: '100 USD',
+    presenter: '100 USD',
+    delegate: '100 USD'
+  },
+  {
+    id: '3',
+    category: 'TPC Member',
+    author: '100 USD',
+    presenter: '100 USD',
+    delegate: '100 USD'
+  }
+];
+
+// 重要日期表格数据
+export interface ImportantDateItem {
+  id: string;
+  event: string;
+  date: string;
+}
+
+export const importantDatesData: ImportantDateItem[] = [
+  {
+    id: '1',
+    event: 'Paper Submission Deadline',
+    date: 'August 15th, 2025'
+  },
+  {
+    id: '2',
+    event: 'Notification of Acceptance',
+    date: 'September 5th, 2025'
+  },
+  {
+    id: '3',
+    event: 'Camera-Ready Paper Due',
+    date: 'September 15th, 2025'
+  },
+  {
+    id: '4',
+    event: 'Registration Deadline',
+    date: 'September 20th, 2025'
+  },
+  {
+    id: '5',
+    event: 'Conference Date',
+    date: 'October 10-12th, 2025'
+  }
+];
