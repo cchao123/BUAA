@@ -3,7 +3,7 @@
 import { SubTitle } from "./SubTitle";
 import styles from './FAQ.module.scss'
 import { useTranslation } from "react-i18next";
-import { speakersData } from '@/constants';
+import { speakersData, institutionsData, institutionsData1, InstitutionItem } from '@/constants';
 
 
 export default function FAQ() {
@@ -183,22 +183,25 @@ export default function FAQ() {
         </section>
       </main>
       <div className="layout-content page-body">
-        <Three></Three>
+        <Organizer />
         <div
           className="paragraph paragraph--type-card-links-featured paragraph--view-mode-full wfp-wrapper mv4 mv5-lg">
           <div className="ta-center mv4">
             <a href="/speaker" className="button-new">More Speakers</a>
           </div>
         </div>
-        <TechnicallySupported></TechnicallySupported>
+        <Patrons title={"Patrons"} list={institutionsData1} />
+
+        <Patrons title="Sponsored by"  list={institutionsData} />
+
       </div>
     </div>
   );
 }
 
-function Three() {
+function Organizer() {
   return <aside class="field field--field-related-stories">
-    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Patrons</h2>
+    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Organizer</h2>
     <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
       {speakersData.map((speaker, index) => (
         <article 
@@ -236,58 +239,58 @@ function Three() {
   </aside>
 }
 
-function TechnicallySupported() {
+function Patrons({title , list}: {title: string, list: InstitutionItem[]}) {
   return <aside class="field field--field-related-stories">
-    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">Patrons</h2>
-    <div class="grid-up-to-3cols wfp-wrapper ph3 ph0-lg">
-      <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/gaza-needs-immediate-ceasefire-and-massive-scale-food-assistance">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="http://www.aees.org/Assets/images/logo/Zhengzhou_University-1.png" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              Xiaojiang Li
-            </span>
-            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Jinan University
-            </h3>
-          </div>
-        </a>
-      </article>
-
-      <article aria-labelledby="related--2" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/understanding-famine-what-it-how-you-can-act">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="/public/images/00001.png" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              Ke ZHANG
-            </span>
-            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Shenzhen Bay Laboratory
-            </h3>
-          </div>
-        </a>
-      </article>
-
-      <article aria-labelledby="related" class="news-release-teaser-related h-100">
-        <a class="news-release-teaser-related__link" href="https://www.wfp.org/stories/eyewitness-we-have-plenty-food-ready-go-gaza-we-just-need-go-ahead">
-          <div class="news-release-teaser-related__cover">
-            <img loading="lazy" src="/public/images/00003.png" />
-          </div>
-          <div class="news-release-teaser-related__text pt1 pb1">
-            <span class="db mt2 mb1 fs6 c-primary">
-              <time datetime="2025-05-18T12:00:00Z">18 May 2025</time>
-
-            </span>
-            <h3 id="related" class="news-release-teaser-related__title db lh-heading fs5">
-              Eyewitness: ‘We have plenty of food ready to go into Gaza – we just need the go-ahead’
-            </h3>
-          </div>
-        </a>
-      </article>
+    <h2 class="mt5 page-stripe__title wfp-wrapper ph3 ph0-lg">{title}</h2>
+    <div 
+      class="wfp-wrapper ph3 ph0-lg"
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '20px',
+        padding: '20px 0'
+      }}
+    >
+      {list.map((institution) => (
+        <div
+          key={institution.id}
+          style={{
+            height: '120px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '10px',
+            backgroundColor: '#fff',
+            borderRadius: '8px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            transition: 'transform 0.2s ease',
+            cursor: 'pointer'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'translateY(-2px)';
+            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateY(0)';
+            e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+          }}
+        >
+          <img
+            src={institution.logo}
+            alt={institution.alt}
+            style={{
+              maxHeight: '100%',
+              maxWidth: '100%',
+              width: 'auto',
+              height: 'auto',
+              objectFit: 'contain'
+            }}
+            loading="lazy"
+          />
+        </div>
+      ))}
     </div>
   </aside>
 }
